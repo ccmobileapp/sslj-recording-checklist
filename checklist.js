@@ -1,0 +1,46 @@
+const phases = [
+  ["Video Setup", [
+    ["camera-power", "Connect camera to power — USB-C or Internal Battery"],
+    ["monitor-power", "Connect monitor power — V-Mount D-Tap or External Battery"],
+    ["f3-power", "Connect Zoom F3 field recorder to V-Mount battery"],
+    ["exposure", "Tweak exposure"],
+    ["white-balance", "Set white balance (WB) using card"],
+    ["color-card", "Record color card for color matching"],
+  ]],
+  ["Insta360 Mic Pro Setup", [
+    ["rx-stereo", "Swipe DOWN → RX → Channel Mode → Stereo → Swipe UP"],
+    ["tx-meters", "Verify transmitters (TX) are connected and audio meters are active"],
+    ["tx-settings", "Swipe DOWN → TX Settings"],
+    ["tx-gain", "Set TX Gain to -3"],
+    ["tx-cardioid", "BACK → Directional Pickup Mode → Cardioid"],
+    ["tx-float", "Set 32-bit Float to ON"],
+    ["tx-recording", "Set Internal Recording to ON"],
+    ["tx-lock", "Set Child Lock to ON"],
+    ["tx-led", "Set LED Indicator Light to OFF"],
+  ]],
+  ["Zoom F3 Setup", [
+    ["f3-xlr", "Connect XLR cables to F3"],
+    ["f3-rx", "Connect receiver (RX) to 3.5 mm / XLR connection"],
+    ["f3-on", "Power ON F3"],
+    ["f3-meter", "Check microphone metering on F3 display"],
+    ["f3-usb", "Verify Zoom F3 is receiving USB-C power from V-Mount battery and no battery symbol appears on F3 display"],
+  ]],
+  ["Recording", [
+    ["rec-video", "Start video recording"],
+    ["rec-mic", "Insta360 Mic Pro: Swipe UP → REC (ALL) → Swipe DOWN"],
+    ["rec-f3", "Zoom F3: Slide lever UP to start recording"],
+    ["rec-light", "Verify red recording light is ON"],
+    ["rec-hold", "Slide lever DOWN to HOLD position"],
+  ]],
+  ["Post-Recording", [
+    ["post-mic", "Insta360 Mic Pro: Swipe UP"],
+    ["post-unlock", "Turn Child Lock OFF"],
+    ["post-led", "Turn LED Indicator Light ON"],
+  ]],
+  ["Post-Production", [
+    ["edit-import", "Import footage"],
+    ["edit-match", "Set white balance using card OR color match using card"],
+    ["edit-lut", "Apply LUT (GH4 or 4E 71 IMBD)"],
+    ["edit-color", "Perform final color correction"],
+  ]],
+];

@@ -1,0 +1,14 @@
+{
+  "id": "./",
+  "name": "SSLJ Recording Checklist",
+  "short_name": "SSLJ Checklist",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "theme_color": "#131e24",
+  "background_color": "#131e24",
+  "icons": [
+    {"src": "./icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "./icon-512.png", "sizes": "512x512", "type": "image/png"}
+  ]
+}
