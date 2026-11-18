@@ -1,5 +1,5 @@
 const prefix = 'sslj-checklist:' + self.registration.scope;
-const cacheName = prefix + ':draft-1';
+const cacheName = prefix + ':draft-2';
 const files = [
   './', './index.html', './style.css', './checklist.js', './app.js',
   './manifest.webmanifest', './icon-180.png', './icon-192.png', './icon-512.png',
